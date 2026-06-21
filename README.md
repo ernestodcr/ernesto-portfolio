@@ -1,46 +1,41 @@
-# Astro Starter Kit: Basics
+# 💻 Mi Portfolio Profesional (Web)
 
-```sh
-npm create astro@latest -- --template basics
-```
+Este repositorio contiene el código fuente de mi portfolio web personal. El sitio está diseñado bajo una arquitectura estática moderna, optimizada para ofrecer la máxima velocidad de carga, accesibilidad y un diseño adaptativo impecable en todos los dispositivos.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🛠️ Tecnologías y Herramientas Utilizadas
 
-## 🚀 Project Structure
+* **Framework:** [Astro](https://astro.build) (Componentes orientados a rendimiento y generación de sitios estáticos).
+* **Lenguaje:** [TypeScript](https://typescriptlang.org) (Tipado estricto para asegurar un código robusto y sin errores en producción).
+* **Estilos:** [Tailwind CSS](https://tailwindcss.com) (Diseño modular mediante clases de utilidad y soporte nativo para Modo Oscuro).
+* **Iconos:** [Simple Icons](https://simpleicons.org) / Iconos vectoriales optimizados para el mapa de tecnologías.
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🚀 Instrucciones para Ejecutar en Local
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+Si quieres clonar este proyecto y ejecutar la interfaz visual en tu propia máquina, sigue estos sencillos pasos:
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/ernestodcr/ernesto-portfolio.git
+   cd mi-nombre-portfolio
+   ```
 
-## 🧞 Commands
+2. **Instalar las dependencias:**
+   ```bash
+   npm install
+   ```
 
-All commands are run from the root of the project, from a terminal:
+3. **Iniciar el servidor de desarrollo local:**
+   ```bash
+   npm run dev
+   ```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+4. **Ver la aplicación:**
+   Abre en tu navegador la dirección local que te devuelva la consola (habitualmente [http://localhost:4321](http://localhost:4321) para proyectos de Astro).
 
-## 👀 Want to learn more?
+## 📦 Comandos Disponibles en el Proyecto
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Dentro del proyecto puedes ejecutar los siguientes scripts comerciales:
+
+* `npm run dev`: Arranca el servidor local con recarga en tiempo real (*Hot Module Replacement*).
+* `npm run build`: Compila y genera la web estática optimizada en la carpeta `dist/` lista para producción.
+* `npm run preview`: Permite previsualizar localmente la versión final compilada antes de subirla a internet.
