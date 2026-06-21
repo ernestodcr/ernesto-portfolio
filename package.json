@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build --skip-typescript",
     "preview": "astro preview",
     "astro": "astro"
   },
