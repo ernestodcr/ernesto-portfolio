@@ -1,0 +1,26 @@
+---
+// src/components/Studies.astro
+import { studies } from "../../data/studies";
+import StudiesList from "./StudiesList.astro";
+---
+
+<section id="studies" class="w-full flex flex-col items-center justify-center px-4 sm:px-6 py-16 md:py-20 overflow-x-hidden">
+  <div class="max-w-3xl w-full">
+    
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
+      Estudios
+    </h2>
+    
+    <div class="relative w-full flex flex-col gap-8">
+      
+      <div class="absolute top-2 bottom-2 left-2 md:left-1/2 w-0.5 bg-gray-700 -translate-x-1/2"></div>
+
+      {
+        studies.map((study, index) => (
+          <StudiesList study={study} index={index} />
+        ))
+      }
+    </div>
+
+  </div>
+</section>

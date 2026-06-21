@@ -1,0 +1,19 @@
+---
+import type { Tech } from "../../../data/techStack";
+const { techStack } = Astro.props as { techStack: Tech[] };
+---
+
+<div class="max-w-5xl mx-auto">
+
+    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+
+      {techStack.map((tech) => (
+        <div class="flex items-center justify-center gap-2 px-3 py-2 rounded-full border border-white/10 bg-white/5">
+          <img src={tech.icon} alt={tech.name} class="w-5 h-5" />
+          <span class="text-gray-200 text-sm">{tech.name}</span>
+        </div>
+      ))}
+
+    </div>
+
+  </div>

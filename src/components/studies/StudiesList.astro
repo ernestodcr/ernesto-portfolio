@@ -1,0 +1,31 @@
+---
+import type { Study } from '../../data/studies';
+
+interface Props {
+  study: Study;
+  index: number;
+}
+
+const { study, index } = Astro.props;
+const isEven = index % 2 === 0;
+---
+
+<div class:list={[
+  "relative flex flex-col items-start w-full pl-8 md:pl-0 md:min-h-30",
+  { "md:flex-row-reverse": isEven, "md:flex-row": !isEven }
+]}>
+  
+  <div class:list={[
+    "w-full md:w-1/2 border border-gray-800 rounded-xl p-5 bg-white/5 shadow-sm hover:border-gray-700 transition",
+    { "md:pr-8 md:text-right": isEven, "md:pl-8 md:text-left": !isEven }
+  ]}>
+    <h3 class="text-lg font-semibold text-white leading-snug">{study.title}</h3>
+    <p class="text-amber-400 text-sm mt-1">{study.institute}</p>
+    <p class="text-xs text-cyan-400 mt-2">{study.period}</p>
+  </div>
+
+  <div class="absolute left-2 md:left-1/2 w-3 h-3 rounded-full bg-cyan-400 -translate-x-1/2 border-2 border-black z-10 top-6 md:top-1/2 md:-translate-y-1/2"></div>
+
+  <div class="hidden md:block w-1/2"></div>
+
+</div>
