@@ -125,5 +125,11 @@ export const certifications: readonly Certification[] = [
     image: "/certs/curso-html5-desde-cero.png",
     issuer: "Udemy",
     url: "https://www.udemy.com/certificate/UC-245c8fca-d511-4b9c-8480-3addb4e3c9a1/"
+  },
+  {
+    title: "Certificado de Iniciación al Desarrollo con IA",
+    image: "/certs/certificado-desarrollo-ia.png",
+    issuer: "MoureDev & BIG school",
+    url: "https://drive.google.com/drive/folders/1WKwR9SQpAJsDbS4e6_Cj-KiiUVFPD297?usp=drive_link"
   }
 ] as const;
