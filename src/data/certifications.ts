@@ -131,5 +131,12 @@ export const certifications: readonly Certification[] = [
     image: "/certs/certificado-desarrollo-ia.png",
     issuer: "MoureDev & BIG school",
     url: "https://drive.google.com/drive/folders/1WKwR9SQpAJsDbS4e6_Cj-KiiUVFPD297?usp=drive_link"
+  },
+  {
+    title: "SQL TOTAL - Domina Bases de Datos de 0 a Avanzado en 12 dias",
+    image: "/certs/Certificado_SQL_Total.png",
+    issuer: "Udemy",
+    url: "https://www.udemy.com/certificate/UC-b14a0f95-79ac-40cc-a3f3-3f2844f5a042/"
   }
+
 ] as const;

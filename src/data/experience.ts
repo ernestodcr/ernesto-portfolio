@@ -7,7 +7,7 @@ interface Experience {
 
 export const experience: readonly Experience[] = [
   {
-    title: "Desarrollador Python (Prácticas)",
+    title: "Desarrollador Python",
     company: "ECM Ingeniería Ambiental – Palencia (Online)",
     date: "Abr 2026 – May 2026",
     description: [
@@ -16,7 +16,7 @@ export const experience: readonly Experience[] = [
     ]
   },
   {
-    title: "Desarrollador de Aplicaciones Multiplataforma (Prácticas)",
+    title: "Desarrollador de Aplicaciones Multiplataforma",
     company: "ACATUR – Palencia",
     date: "Oct 2025 – Dic 2025",
     description: [
@@ -34,7 +34,7 @@ export const experience: readonly Experience[] = [
     ]
   },
   {
-    title: "Desarrollador Web (Prácticas)",
+    title: "Desarrollador Web",
     company: "ACATUR – Palencia",
     date: "Oct 2024 – Dic 2024",
     description: [
@@ -43,7 +43,7 @@ export const experience: readonly Experience[] = [
     ]
   },
   {
-    title: "Técnico de Sistemas y Redes (Prácticas)",
+    title: "Técnico de Sistemas y Redes",
     company: "SOLYECA SL – Palencia",
     date: "Mar 2022 – Jun 2022",
     description: [

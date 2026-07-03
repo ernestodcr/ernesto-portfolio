@@ -8,7 +8,7 @@ export const navLinks: readonly Nav[] =  [
   { label: "Sobre mí", href: "#about" },
   { label: "Estudios", href: "#studies" },
   { label: "Experiencia", href: "#experience" },
-  { label: "Certificaciones", href: "#certifications" },
-  { label: "Proyectos", href: "#projects" }
+  { label: "Proyectos", href: "#projects" },
+  { label: "Certificaciones", href: "#certifications" }
 ];
 

@@ -60,5 +60,19 @@ export const projects: readonly Project[] = [
     image: "/images/projects/palencia-burger.jpg",
     github: "https://github.com/ernestodcr/palencia-burger-web/tree/main",
     demo: "https://palencia-burger-web.vercel.app/"
+  },
+  {
+    title: "Corporate Workstation Deployment - TecnoSoluciones S.A.",
+    description: "Simulación y documentación técnica del despliegue automatizado y optimización de un puesto de trabajo Windows 10 Pro para soporte de TI Nivel 1. Configuración avanzada de redes locales puenteadas y optimización de hipervisores bajo estándares corporativos.",
+    tech: ["Oracle VM VirtualBox", "Windows 10 Pro (22H2)", "Bridged Networking", "Guest Additions", "Markdown"],
+    image: "/images/projects/corporate-workstation.jpg",
+    github: "https://github.com/ernestodcr/Corporate-Workstation-Deployment/blob/main",
+  },
+  {
+    title: "Linux Server Administration - TecnoSoluciones S.A.",
+    description: "Despliegue, configuración y auditoría de un servidor empresarial Ubuntu Server 26.04 LTS en consola pura. Implementación de arquitectura de almacenamiento dinámico LVM, aprovisionamiento de identidades y gestión de acceso remoto seguro por OpenSSH.",
+    tech: ["Ubuntu Server 26.04", "LVM Storage", "OpenSSH", "GNU Nano", "Markdown"],
+    image: "/images/projects/linux-server.jpg",
+    github: "https://github.com/ernestodcr/Linux-Server-Administration",
   }
 ] as const;
