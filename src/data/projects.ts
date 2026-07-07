@@ -62,17 +62,40 @@ export const projects: readonly Project[] = [
     demo: "https://palencia-burger-web.vercel.app/"
   },
   {
-    title: "Corporate Workstation Deployment - TecnoSoluciones S.A.",
-    description: "Simulación y documentación técnica del despliegue automatizado y optimización de un puesto de trabajo Windows 10 Pro para soporte de TI Nivel 1. Configuración avanzada de redes locales puenteadas y optimización de hipervisores bajo estándares corporativos.",
-    tech: ["Oracle VM VirtualBox", "Windows 10 Pro (22H2)", "Bridged Networking", "Guest Additions", "Markdown"],
+    title: "Corporate Workstation Deployment",
+    description: "Simulación y despliegue técnico automatizado de un puesto de trabajo corporativo bajo Windows 10 Pro enfocado a soporte técnico de TI Nivel 1 para TecnoSoluciones S.A. Implementación y optimización del entorno sobre hipervisores Oracle, configuración avanzada de redes locales interconectadas mediante el modo Puente (Bridged) para comunicación directa en la oficina, optimización del rendimiento del sistema con Guest Additions y auditoría de conectividad base mediante herramientas de diagnóstico por línea de comandos (Windows CMD).",
+    tech: ["Windows 10 Pro (22H2)","Oracle VM VirtualBox","Bridged Networking (Red Puente)","VirtualBox Guest Additions","Windows CMD (Línea de Comandos)","Markdown"],
     image: "/images/projects/corporate-workstation.jpg",
     github: "https://github.com/ernestodcr/Corporate-Workstation-Deployment/blob/main",
   },
   {
-    title: "Linux Server Administration - TecnoSoluciones S.A.",
-    description: "Despliegue, configuración y auditoría de un servidor empresarial Ubuntu Server 26.04 LTS en consola pura. Implementación de arquitectura de almacenamiento dinámico LVM, aprovisionamiento de identidades y gestión de acceso remoto seguro por OpenSSH.",
-    tech: ["Ubuntu Server 26.04", "LVM Storage", "OpenSSH", "GNU Nano", "Markdown"],
+    title: "Linux Server Administration",
+    description: "Despliegue y administración avanzada de un servidor empresarial Ubuntu Server en consola pura para el ecosistema corporativo de TecnoSoluciones S.A. Implementación de una arquitectura de almacenamiento elástico LVM, automatización de plantillas de seguridad con máscaras de usuario (umask) y blindaje de accesos mediante permisos octales. Configuración de redes empresariales estáticas via Netplan, optimización del aprovisionamiento de paquetes y gestión remota altamente segura a través de OpenSSH, concluyendo con auditorías forenses de ciberseguridad sobre la caja negra del sistema (journalctl).",
+    tech: ["Ubuntu Server 26.04","LVM Storage","OpenSSH","Netplan","Systemd (systemctl)","Journalctl","Apt Package Manager","Linux File Permissions (chmod/umask)","Htop / Top","GNU Nano","Markdown"],
     image: "/images/projects/linux-server.jpg",
     github: "https://github.com/ernestodcr/Linux-Server-Administration",
-  }
+  },
+  {
+    title: "Windows Server 2022 Deployment",
+    description: "Despliegue e instalación visual de un servidor corporativo Windows Server 2022 en modo Experiencia de Escritorio. Configuración de la identidad de red SRV-WIN-01, direccionamiento IPv4 estático empresarial y aprovisionamiento del rol Active Directory (AD DS).",
+    tech: ["Windows Server 2022", "Active Directory", "Networking IPv4", "VirtualBox", "Markdown"],
+    image: "/images/projects/windows-server.jpg",
+    github: "https://github.com/ernestodcr/Windows-Server-Deployment",
+  },
+  {
+    title: "Enterprise Firewall Deployment (pfSense)",
+    description: "Implementación y aislamiento de la frontera de red corporativa mediante el sistema operativo especializado pfSense. Configuración de arquitectura perimetral dual (WAN/LAN) sobre sistema de archivos ZFS para auditoría y filtrado seguro de tráfico de datos.",
+    tech: ["pfSense", "FreeBSD", "Network Security", "ZFS File System", "VirtualBox", "Cybersecurity"],
+    image: "/images/projects/pfsense-firewall.jpg",
+    github: "https://github.com",
+  },
+  {
+    title: "Industrial Quality Monitor",
+    description: "Desarrollo de un sistema modular para el control de calidad, monitorización de líneas de producción y análisis de eficiencia en planta. Separa la automatización de la infraestructura en segundo plano de la visualización interactiva de datos mediante un cuadro de mando (Dashboard) de KPIs en tiempo real.",
+    tech: ["Python", "Pandas", "Streamlit", "Sistemas", "Git/GitHub"],
+    image: "/images/projects/quality-monitor.jpg",
+    github: "https://github.com",
+  },
+
+  
 ] as const;
