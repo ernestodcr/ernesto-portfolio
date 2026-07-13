@@ -1,29 +1,28 @@
 ---
-import "../styles/global.css"
+import "../styles/global.css";
 import Navbar from "../components/navbar/Navbar.astro";
 
-const { title = "Portfolio de Ernesto" } = Astro.props;
+const { title = "ERNESTO DE LA CRUZ DEL RÍO" } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="es" class="overflow-x-hidden">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>{title}</title>
-	</head>
-	<body class="overflow-x-hidden bg-black text-white w-full">
-		<header>
-			<Navbar />
-		</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+  </head>
+  <body class="overflow-x-hidden bg-black text-white w-full">
+    <header>
+      <Navbar />
+    </header>
 
-		<main>
-			<slot />
-		</main>
-	</body>
+    <main>
+      <slot />
+    </main>
+  </body>
 </html>
 
-
 <script>
-	import "../scripts/scrollReveal.ts";
+  import "../scripts/scrollReveal.ts";
 </script>

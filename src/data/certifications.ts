@@ -137,6 +137,18 @@ export const certifications: readonly Certification[] = [
     image: "/certs/Certificado_SQL_Total.png",
     issuer: "Udemy",
     url: "https://www.udemy.com/certificate/UC-b14a0f95-79ac-40cc-a3f3-3f2844f5a042/"
+  },
+  {
+    title: "Desarrolla de forma rápida APIs con FastAPI en Python",
+    image: "/certs/Certificado_API_FastAPI.png",
+    issuer: "Udemy",
+    url: "https://www.udemy.com/certificate/UC-cdca42e8-cf1d-4b2a-9952-1b8faf4e5d9d/"
+  },
+  {
+    title: "Automatización de Pruebas con Selenium WebDriver, Python y Pytest",
+    image: "/certs/Certificado_Automatizacion_Pruebas_Selenium_Python.png",
+    issuer: "Udemy",
+    url: "https://www.udemy.com/certificate/UC-c16ea139-b330-4749-863a-8a25a453ab6f/"
   }
 
 ] as const;
