@@ -87,15 +87,29 @@ export const projects: readonly Project[] = [
     description: "Implementación y aislamiento de la frontera de red corporativa mediante el sistema operativo especializado pfSense. Configuración de arquitectura perimetral dual (WAN/LAN) sobre sistema de archivos ZFS para auditoría y filtrado seguro de tráfico de datos.",
     tech: ["pfSense", "FreeBSD", "Network Security", "ZFS File System", "VirtualBox", "Cybersecurity"],
     image: "/images/projects/pfsense-firewall.jpg",
-    github: "https://github.com",
+    github: "https://github.com/ernestodcr/Enterprise-Firewall-pfSense",
   },
   {
     title: "Industrial Quality Monitor",
     description: "Desarrollo de un sistema modular para el control de calidad, monitorización de líneas de producción y análisis de eficiencia en planta. Separa la automatización de la infraestructura en segundo plano de la visualización interactiva de datos mediante un cuadro de mando (Dashboard) de KPIs en tiempo real.",
     tech: ["Python", "Pandas", "Streamlit", "Sistemas", "Git/GitHub"],
     image: "/images/projects/quality-monitor.jpg",
-    github: "https://github.com",
+    github: "https://github.com/ernestodcr/industrial-quality-monitor.git",
   },
-
-  
+  {
+    title: "SaaS-O-Matic - Simulador Contable",
+    description: "Desarrollo de un ecosistema integral para la gestión de cuentas corporativas y modelado financiero de costes por tramos de consumo. Incorpora un motor de validación fiscal condicional aislado en el flujo de entrada y un sistema de conversión multidivisa visual en tiempo real que preserva la inmutabilidad de los registros históricos en la base de datos relacional.",
+    tech: ["FastAPI", "React 19", "TypeScript", "SQLAlchemy", "Tailwind v4", "Render", "Vercel"],
+    image: "/images/projects/saas-o-matic.jpg",
+    github: "https://github.com/ernestodcr/saas-o-matic",
+    demo: "https://saas-o-matic.vercel.app/"
+  },
+  {
+    title: "Fruit Counter - Sistema de Inspección Industrial Clásico",
+    description: "Desarrollo de un pipeline automatizado de visión computacional clásico para el conteo de activos esféricos en flujos de producción continuos. Implementa un motor de segmentación cromática aislado en el espacio de color HSV mediante filtrado adaptativo por umbrales y un algoritmo de transformada de Hough optimizado para la detección de primitivas geométricas en tiempo real.",
+    tech: ["Python 3", "OpenCV", "NumPy", "Git", "Pip", "Virtualenv (Venv)", "Markdown"],
+    image: "/images/projects/fruit-counter.jpg",
+    github: "https://github.com/ernestodcr/fruit-counter-opencv",
+    demo: "/video/demo-naranjas.mp4"
+  },
 ] as const;
