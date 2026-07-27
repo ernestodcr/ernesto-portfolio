@@ -25,15 +25,6 @@ export const experience: readonly Experience[] = [
     ]
   },
   {
-    title: "Soporte Técnico y Documentación",
-    company: "ACATUR – Palencia",
-    date: "Jun 2025 – Sep 2025",
-    description: [
-      "Coordiné el soporte técnico integral del centro bajo estándares de arquitectura de software seguro.",
-      "Elaboré documentación técnica detallada (manuales, esquemas e informes de despliegue) para facilitar la puesta en producción de los proyectos."
-    ]
-  },
-  {
     title: "Desarrollador Web",
     company: "ACATUR – Palencia",
     date: "Oct 2024 – Dic 2024",
