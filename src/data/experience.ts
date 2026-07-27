@@ -8,7 +8,7 @@ interface Experience {
 export const experience: readonly Experience[] = [
   {
     title: "Desarrollador Python",
-    company: "ECM Ingeniería Ambiental – Palencia (Online)",
+    company: "ECM Ingeniería Ambiental – Palencia, Modalidad Online (Prácticas FCT – CIFP Camino de la Miranda, Palencia)",
     date: "Abr 2026 – May 2026",
     description: [
       "Desarrollé scripts de automatización con Python para el procesamiento y filtrado de datos internos.",
@@ -17,7 +17,7 @@ export const experience: readonly Experience[] = [
   },
   {
     title: "Desarrollador de Aplicaciones Multiplataforma",
-    company: "ACATUR – Palencia",
+    company: "ACATUR – Palencia (Prácticas FCT – CIFP Camino de la Miranda, Palencia)",
     date: "Oct 2025 – Dic 2025",
     description: [
       "Desarrollé sistemas digitales enfocados en la experiencia de usuario (UX/UI), optimizando el rendimiento de sus interfaces.",
@@ -26,7 +26,7 @@ export const experience: readonly Experience[] = [
   },
   {
     title: "Desarrollador Web",
-    company: "ACATUR – Palencia",
+    company: "ACATUR – Palencia (Prácticas FCT – CIFP Camino de la Miranda, Palencia)",
     date: "Oct 2024 – Dic 2024",
     description: [
       "Gestioné el mantenimiento preventivo y correctivo de sitios web corporativos y de pruebas.",
@@ -35,7 +35,7 @@ export const experience: readonly Experience[] = [
   },
   {
     title: "Técnico de Sistemas y Redes",
-    company: "SOLYECA SL – Palencia",
+    company: "SOLYECA SL – Palencia (Prácticas de formación exentas de cotización – CIFP Camino de la Miranda, Palencia)",
     date: "Mar 2022 – Jun 2022",
     description: [
       "Diagnostiqué y resolví incidencias críticas de hardware y software en equipos de clientes.",
