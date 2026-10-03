@@ -59,8 +59,9 @@ export const techStack: readonly Tech[] = [
 
   // Computer Vision & Data — visión artificial y procesamiento de datos
   { name: "OpenCV", icon: "/icons/openCV.svg", category: "computer-vision" },
-  { name: "Pandas", icon: "/icons/pandas.svg", category: "computer-vision" },
+  { name: "Ultralytics YOLO", icon: "/icons/ultralytics.svg", category: "computer-vision" },
   { name: "NumPy", icon: "/icons/numpy.svg", category: "computer-vision" },
+  { name: "Pandas", icon: "/icons/pandas.svg", category: "computer-vision" },
   { name: "Matplotlib", icon: "/icons/matplotlib.svg", category: "computer-vision" },
   { name: "Jupyter Notebook", icon: "/icons/jupyter.svg", category: "computer-vision" },
 
