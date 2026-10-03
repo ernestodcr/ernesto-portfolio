@@ -10,7 +10,7 @@ export interface Project {
 export const projects: readonly Project[] = [
   {
     title: "Sistema de Control Horario",
-    description: "Aplicación web Full-Stack comercial estructurada como monorrepo. Implementa una SPA fluida y responsiva con Angular 21 (renderizado Zoneless) comunicada de forma asíncrona con una API REST en FastAPI y SQLite. [Nota: Enlace Demo limitado al Frontend visual; el login y la base de datos se ejecutan clonando el repositorio local].",
+    description: "Aplicación web Full-Stack comercial estructurada como monorrepo. Implementa una SPA fluida y responsiva con Angular 21 (renderizado Zoneless) comunicada de forma asíncrona con una API REST en FastAPI y SQLite.",
     tech: ["Angular 21", "TypeScript", "FastAPI", "Python", "Pydantic", "SQLite", "RxJS", "Vercel"],
     image: "/images/projects/control-horario.jpg",
     github: "https://github.com/ernestodcr/time-control-system",
@@ -55,7 +55,7 @@ export const projects: readonly Project[] = [
   },
   {
     title: "Palencia Burger Co - Carta Digital Interactiva",
-    description: "Aplicación web comercial basada en WordPress y maquetada a medida con Elementor, diseñada bajo un enfoque mobile-first para la digitalización de menús en restauración. Implementa una estructura optimizada para la visualización fluida de productos en dispositivos móviles, persistencia en base de datos relacional para la gestión del catálogo de ingredientes y estilos visuales personalizados mediante un entorno de desarrollo local eficiente.",
+    description: "Aplicación web comercial (WordPress/Elementor) diseñada con enfoque móvil para digitalizar de forma interactiva el menú de un restaurante. Optimización extrema de velocidad y rendimiento que garantiza una visualización fluida de los platos, mejorando la experiencia del cliente y aumentando las ventas. Estructura autogestionable basada en datos que permite al restaurante actualizar precios, ingredientes y platos en tiempo real de forma sencilla. Diseño visual único y personalizado desarrollado en un entorno local eficiente para asegurar la máxima calidad antes de su lanzamiento. Una solución digital moderna y escalable que transforma la carta tradicional en una potente herramienta de fidelización y marketing.",
     tech: ["WordPress", "Elementor", "PHP", "MySQL", "Nginx", "LocalWP"],
     image: "/images/projects/palencia-burger.jpg",
     github: "https://github.com/ernestodcr/palencia-burger-web/tree/main",
@@ -77,7 +77,7 @@ export const projects: readonly Project[] = [
   },
   {
     title: "Windows Server 2022 Deployment",
-    description: "Despliegue e instalación visual de un servidor corporativo Windows Server 2022 en modo Experiencia de Escritorio. Configuración de la identidad de red SRV-WIN-01, direccionamiento IPv4 estático empresarial y aprovisionamiento del rol Active Directory (AD DS).",
+    description: "Despliegue visual de Windows Server 2022 con identidad corporativa escalable y direccionamiento IPv4 estático para garantizar la estabilidad total de la red. Actúa como el motor de identidad centralizado (Active Directory) que controla y protege de forma segura el acceso de todos los empleados a los recursos de la empresa. Una solución de infraestructura robusta, rentable y lista para el crecimiento empresarial que optimiza el soporte técnico y blinda la seguridad operativa desde el primer día.",
     tech: ["Windows Server 2022", "Active Directory", "Networking IPv4", "VirtualBox", "Markdown"],
     image: "/images/projects/windows-server.jpg",
     github: "https://github.com/ernestodcr/Windows-Server-Deployment",
@@ -105,7 +105,7 @@ export const projects: readonly Project[] = [
     demo: "https://saas-o-matic.vercel.app/"
   },
   {
-    title: "Fruit Counter - Sistema de Inspección Industrial Clásico",
+    title: "Fruit Counter - Sistema de Inspección Industrial",
     description: "Desarrollo de un pipeline automatizado de visión computacional clásico para el conteo de activos esféricos en flujos de producción continuos. Implementa un motor de segmentación cromática aislado en el espacio de color HSV mediante filtrado adaptativo por umbrales y un algoritmo de transformada de Hough optimizado para la detección de primitivas geométricas en tiempo real.",
     tech: ["Python 3", "OpenCV", "NumPy", "Git", "Pip", "Virtualenv (Venv)", "Markdown"],
     image: "/images/projects/fruit-counter.jpg",
