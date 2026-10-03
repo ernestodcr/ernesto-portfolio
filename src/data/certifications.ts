@@ -149,6 +149,13 @@ export const certifications: readonly Certification[] = [
     image: "/certs/Certificado_Automatizacion_Pruebas_Selenium_Python.png",
     issuer: "Udemy",
     url: "https://www.udemy.com/certificate/UC-c16ea139-b330-4749-863a-8a25a453ab6f/"
-  }
+  },
+  {
+    title: "Certificado de Asistencia Al Curso de Iniciación Al Desarrollo con IA",
+    image: "/certs/Certificado_Iniciacion_Desarrollo_IA_BIGschool.png",
+    issuer: "BigSchool",
+    url: "https://drive.google.com/drive/folders/1WKwR9SQpAJsDbS4e6_Cj-KiiUVFPD297"
+  },
+
 
 ] as const;
