@@ -156,6 +156,10 @@ export const certifications: readonly Certification[] = [
     issuer: "BigSchool",
     url: "https://drive.google.com/drive/folders/1WKwR9SQpAJsDbS4e6_Cj-KiiUVFPD297"
   },
-
-
+  {
+    "title": "Certificado de Asistencia al Curso de Hacking Ético: de 0 a Hackear Aplicaciones",
+    "image": "/certs/Acreditacion_Curso_Hacking_Etico_0aApps.jpg.png",
+    "issuer": "BigSchool",
+    "url": "https://drive.google.com/file/d/1Opu357fmuI_-YtPp5hNKDXHhN16Acuo6/view?usp=sharing"
+  }
 ] as const;
