@@ -7,6 +7,17 @@ interface Experience {
 
 export const experience: readonly Experience[] = [
   {
+    title: "Técnico de Control de Visión y Aplicaciones de IA",
+    company: "Renault Group – Villamuriel de Cerrato, Modalidad Presencial (Beca FGULEM)",
+    date: "Sept 2026 – Actualidad",
+    description: [
+      "Participación en actividades de visión artificial e Inteligencia Artificial aplicadas al control de calidad y de cotas geométricas en entornos industriales.",
+      "Análisis de proyectos de visión artificial e integración de cámaras y PLC.",
+      "Entrenamiento y validación de modelos YOLO mediante Python.",
+      "Etiquetado de imágenes OK/NOK y aplicación de técnicas de Data Augmentation."
+    ]
+  },
+  {
     title: "Desarrollador Python",
     company: "ECM Ingeniería Ambiental – Palencia, Modalidad Online (Prácticas FCT – CIFP Camino de la Miranda, Palencia)",
     date: "Abr 2026 – May 2026",
